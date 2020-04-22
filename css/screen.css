@@ -446,7 +446,22 @@ a:focus {
 .c-nav__link:focus {
     text-shadow: 0px 0px 8px white ;
     color: #DBEDFF;
-    
+
+}
+
+.c-cta {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    background: linear-gradient(to right, #033AA7 15%, #0053FB 100%);
+    padding: 16px 25px 16px 25px ;
+    color: white;
+    box-shadow: 0px 0px 10px #1195FF;
+    font-weight: 400;
+}
+
+.c-cta:hover {
+    background-position: right center;
 }
 
 @media (min-width: 992px) {
