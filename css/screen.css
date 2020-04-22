@@ -82,6 +82,8 @@ html {
 img {
     max-width: 100%;
     vertical-align: top;
+    position: relative;
+    float: left;
 }
 
 /*
@@ -164,6 +166,14 @@ figcaption {
     font-size: 12px;
     line-height: 16px;
     margin-top: 8px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    float: right;
+    padding: 15px 25px;
+    max-width: 250px;
+    
 }
 
 hr {
