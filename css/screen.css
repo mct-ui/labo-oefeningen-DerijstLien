@@ -2,6 +2,25 @@
   #FONTS
 \*------------------------------------*/
 
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 200;
+    src: url("../fonts/ClearSans-Light-webfont.woff");
+}
+
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 400;
+    src: url("../fonts/ClearSans-Regular-webfont.woff");
+}
+
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 600;
+    src: url("../fonts/ClearSans-Medium-webfont.woff");
+}
+
+
 /*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
@@ -13,12 +32,16 @@
 */
 
 html {
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Helvetica, arial, sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
+    font-family: "Clear Sans", Helvetica, arial, sans-serif;
+    color: white;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(to bottom right, #0A257D, #061649);
+    background-attachment: fixed;
 }
 
 *,
@@ -205,7 +228,7 @@ a:focus {
 .o-container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 56.4em; /* 56.4 * 20px = 1128px */
+    max-width: 71em; /* 71 * 18px = 1278px */
 }
 
 /*
@@ -364,6 +387,23 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+
+/*
+    Component: Logo
+    ---
+    Website main logo
+*/
+
+.c-logo {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.c-logo__symbol {
+    height: 100%;
+}
+
 
 /*------------------------------------*\
   #UTILITIES
